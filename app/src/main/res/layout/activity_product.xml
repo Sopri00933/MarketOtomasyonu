@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdb3d"
+    tools:context=".ProductActivity">
+
+    <EditText
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#03DAC5"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:background="#03DAC5"
+        android:text="AnaSayfa"
+        android:textColor="#ffdb3d"
+        android:textSize="15dp"
+        android:layout_marginRight="240dp"/>
+
+    <Button
+        android:id="@+id/product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:background="#03DAC5"
+        android:text="Ürün Ekle"
+        android:textColor="#ffdb3d"
+        android:textSize="15dp"
+        android:layout_marginRight="240dp"/>
+
+    <Button
+        android:id="@+id/product_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="195dp"
+        android:background="#03DAC5"
+        android:text="Ürün Listele"
+        android:textColor="#ffdb3d"
+        android:textSize="15dp"
+        android:layout_marginRight="240dp"/>
+
+    <EditText
+        android:id="@+id/barcode"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Barkod Numarası Giriniz"
+        android:textAlignment="center"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="295dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Kategori Giriniz"
+        android:textAlignment="center"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/brand"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="336dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Marka Giriniz"
+        android:textAlignment="center"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="378dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Ürün Adı Giriniz"
+        android:textAlignment="center"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="417dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Miktarı Giriniz"
+        android:textAlignment="center"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/purchase_price"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="457dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Alış Fiyatı Giriniz"
+        android:textAlignment="center"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/sale_price"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Satış Fiyatı Giriniz"
+        android:textAlignment="center"
+        android:background="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/product_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="552dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#03DAC5"
+        android:textSize="25dp"
+        android:text="Ürün Kaydet"
+        android:textColor="#ffdb3d"/>
+
+    <EditText
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:background="#03DAC5"
+        android:enabled="false"/>
+
+</RelativeLayout>
